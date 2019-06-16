@@ -2,7 +2,7 @@ import xlrd
 from Tkinter import *
 var=""
 
-locat="C:\Python27\data.xlsx"
+locat="data.xlsx"
 workbook=xlrd.open_workbook(locat)
 sheet=workbook.sheet_by_index(0)
 
